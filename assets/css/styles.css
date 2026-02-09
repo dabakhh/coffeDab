@@ -205,3 +205,86 @@ nav li:hover{
     text-align: center;
     font-size: 1.5rem;
 }
+.catalogue{
+    background-color:darksalmon;
+}
+main .catalogue .catalog-head h1{
+    text-align: center;
+    
+}
+.favoris{
+    background-color: beige;
+    display: flex;
+    padding: 0 50px;
+}
+
+.topHot h1{
+    text-align: center;
+}
+
+ .hotcoffe{ 
+    display: flex;
+    flex-direction: column;
+    /*width: 50%;
+   Until i add the speciality div via the model : https://fliphtml5.com/fr/templates/78701020/modern-coffee-catalog-template/  */
+}  
+.bottomHot{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.nameprice{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    max-height: 40px;
+
+}
+.nameprice p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+    font-size: 20px;
+    
+}
+.soumet{
+    width: 100%;
+    margin: 0 auto;
+    background-color: rgb(206, 99, 99);
+    height: 3px;
+    margin-bottom: 10px;
+}
+
+.bottomHot{
+    display: flex;
+    flex-direction: row;
+    
+}
+.hotList{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border: white solid 1px ;
+    border-radius: 45px;
+    width: 45%;
+    
+}
+.threeplats{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    border: white solid 1px ;
+    border-radius: 45px;
+}
+
+.threecards{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.imageplat img{
+    clip-path: circle(50% at 50% 50%);
+    width: 200px;
+}
